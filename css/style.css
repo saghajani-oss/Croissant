@@ -2,6 +2,11 @@
   --link-background: #f69f83;
 }
 
+body {
+  background: radial-gradient(905px at 4.9% 85.8%, rgb(255, 243, 242) 0.1%, rgb(255, 247, 220) 57.6%);
+  height: 100%;
+}
+
 .main-header {
   text-align: center;
   font-size: 48px;
@@ -33,13 +38,12 @@
 
 .row {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .row img {
   width: 400px;
   height: 400px;
-  margin-right: 10px;
   border-radius: 10px;
 }
 
@@ -56,13 +60,13 @@
 }
 
 .contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.email{
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
+.email {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
 }
